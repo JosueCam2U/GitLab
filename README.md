@@ -2,6 +2,7 @@
 Desencriptación por fuerza bruta
 En base a a lo que e realizado e tomado 2 formas de codigo para realizar el trabajo 
 primero la primera forma es muy basica 
+
 <img width="890" height="876" alt="image" src="https://github.com/user-attachments/assets/84ea2c0e-40c8-4be5-9b36-07debeff45a9" />
 
 
@@ -11,6 +12,7 @@ observaciones
 por este metodo se observo que los caracteres numericos se demoro mas a diferencia del alfavetico y simbolico combinado
 
 segundo la segunda forma ya contiene conpleguidad pero tine porblemas 
+
 <img width="891" height="714" alt="image" src="https://github.com/user-attachments/assets/59dd555c-0f8b-4b0a-889f-4a3997b4ccfb" />
 <img width="893" height="680" alt="image" src="https://github.com/user-attachments/assets/98d8dc58-b96f-4146-b69a-7d095f1781df" />
 

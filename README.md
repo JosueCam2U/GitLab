@@ -1,26 +1,33 @@
 # GitLab
-Desencriptación por fuerza bruta
-En base a a lo que e realizado e tomado 2 formas de codigo para realizar el trabajo 
-primero la primera forma es muy basica 
+Brute-force decryption
+Based on what I've done, I've chosen two forms of code to do the job. 
+The first form is very basic.
+Image 1
+<img width="729" height="706" alt="image" src="https://github.com/user-attachments/assets/7b3bfdb5-755d-4a69-b495-350a2f590100" />
 
+We observe how the code takes letter by letter and compares to get the result.
+Image 2
 <img width="890" height="876" alt="image" src="https://github.com/user-attachments/assets/84ea2c0e-40c8-4be5-9b36-07debeff45a9" />
 
+This image shows how much time and attempts it took to crack each password with different characters.
+The reason why it only contained three characters was that the code failed to distinguish four characters and couldn't find each password.
+Observations:
+Using this method, it was observed that numeric characters took longer than combined alphabetic and symbolic characters.
 
-esta imagen se pude observat cuanto tiempo e intentos tomo desifrar cada contraseña de distintos caracteres
-el motivo de que solo se encuentre de tres caracteres el codigo dejaba de distingir 4 caracteres y no encontraba ca contraseña 
-observaciones 
-por este metodo se observo que los caracteres numericos se demoro mas a diferencia del alfavetico y simbolico combinado
+Second, the second form already contains complexity but has problems.
+Image 3
+<img width="718" height="983" alt="image" src="https://github.com/user-attachments/assets/8c192715-9c1f-4366-bcd5-1e324fe06f86" />
 
-segundo la segunda forma ya contiene conpleguidad pero tine porblemas 
-
+It is observed that if you can decipher a password of 4 characters and with difficulty of 5
+Image 4
 <img width="891" height="714" alt="image" src="https://github.com/user-attachments/assets/59dd555c-0f8b-4b0a-889f-4a3997b4ccfb" />
+Image 4
 <img width="893" height="680" alt="image" src="https://github.com/user-attachments/assets/98d8dc58-b96f-4146-b69a-7d095f1781df" />
 
 
-en la imagen podemos observar el mismo problema que en los intentos del drimer codigo ya que cundo se demoro mas fue 
-en datos solo numericos y pasando los 4 caracteres 
-luego se intento con una contraseña mas normal pero basica el tiempo es indefinido ya que paso mas de 6 horas y no encontro la forma 
+In the image, we can see the same problem as in the first code attempts, since it took the longest time
+for purely numeric data and exceeding 4 characters.
+Then, a more normal but basic password was attempted. The time is indefinite, as it took more than 6 hours and no way was found.
 
-Concluyendo que el codigo deveria tener mejor estructura en base al alfaveto utilizado para mayor optimizacion ya que la 
-primera observacion seria de que el uso de un solo arreglo y los caracteres numericos estaban al final ya sea por eso el tiempo prolongado 
-de fuerza bruta 
+Concluding, the code should have a better structure based on the alphabet used for greater optimization, since the
+first observation would be that the use of a single array and the numeric characters were at the end, whether that is why the prolonged brute-force time
